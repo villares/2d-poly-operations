@@ -9,6 +9,8 @@ Available at: <http://www.inf.usi.ch/hormann/papers/Greiner.1998.ECO.pdf>
 
 Processing does not have built in "boolean" operations for 2D polygons. Maybe this can help.
 
+Supported operations are: union, intersection and difference.
+
 ### About this repo
 
 This is the **Python branch** you might want to have a look at the **Java branch**
@@ -22,7 +24,7 @@ To study the algorithm, inspect the file `polygon.py`. It can be imported and us
 > help(polygon)
 > from polygon import *
 ```
-## The original command line demo
+## The original command line demo (might be removed)
 
 The original command line interface will not be mantained (`polyclip.py`) and may be removed later, it was provided by Helder Correia for demonstration or testing purposes, using OpenGL and equires **PyOpenGL** (version 3 as of this writing). If you have pip, install is easy:
 
@@ -30,7 +32,4 @@ The original command line interface will not be mantained (`polyclip.py`) and ma
 
 Type `polyclip.py -h` for available options. Press `Esc` to exit.
 
-## Usage
-
-Supported operations are: union, intersection and difference.
 
