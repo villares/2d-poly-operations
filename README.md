@@ -8,17 +8,21 @@ Available at: <http://www.inf.usi.ch/hormann/papers/Greiner.1998.ECO.pdf>
 ## Motivation
 
 Processing does not have built in "boolean" operations for 2D polygons. Maybe this can help.
-
 Supported operations are: union, intersection and difference.
 
 Maybe someone will want to **port this to P5.js**? Open an issue and send a PR!
 
 ### About this repo
 
-This is the **Python branch** you might want to have a look at the **Java branch**
+This work was created for educational purposes by Helder Correia for a class in Graphical Computation, now Alexandre Villares would like to use this with Processing. This is the **Python branch** you might want to have a look at the **Java branch** too.
 
 To study the algorithm, inspect the file `polygon.py`. It can be imported and used in other contexts (i.e., not Processing Python mode).
 
+Other ideas we could pursue:
+
+- Building a Processing library (with a `jar` file that could be imported)
+- Creating an interface for use with PShapes
+- Porting this to JavaScript for use with P5.js
 
 ## Processing demo
 
