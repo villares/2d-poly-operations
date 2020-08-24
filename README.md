@@ -1,4 +1,5 @@
-# 2D Polygon operations with pure Python or Java (and a Processing demo)
+# 2D Polygon operations
+### At this point with pure Python or Java (and a Processing demo is coming!)
 
 Based on Helder Correia's work https://github.com/helderco/univ-polyclip
 Based on the paper "Efficient Clipping of Arbitrary Polygons" by Günther Greiner (greiner[at]informatik.uni-erlangen.de) and Kai Hormann (hormann[at]informatik.tu-clausthal.de), ACM Transactions on Graphics 1998;17(2):71-83.
