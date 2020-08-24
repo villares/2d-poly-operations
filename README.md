@@ -16,7 +16,7 @@ Now Alexandre Villares would like to use this with Processing.
 To study the algorithm, inspect file `Polygon.java`. It can be imported and used in other contexts (e.g., not opengl).
 
 
-## Processing Demo
+## Processing demo
 
   - TO BE DONE!
 
