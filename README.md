@@ -6,7 +6,9 @@ Based on Helder Correia's work https://github.com/helderco/univ-polyclip that is
 ## Motivation
 
 Processing does not have built in "boolean" operations for 2D polygons. Maybe this can help.
+
 Supported operations are: union, intersection and difference.
+But at this point no holes or treatment of degenerate paths...
 
 Maybe someone will want to **port this to P5.js**, open an issue and send a PR?
 
