@@ -1,17 +1,14 @@
 # 2D Polygon operations
 ### At this point with pure Python or Java (and a Processing demo is coming!)
 
-Based on Helder Correia's work https://github.com/helderco/univ-polyclip
-Based on the paper "Efficient Clipping of Arbitrary Polygons" by Günther Greiner (greiner[at]informatik.uni-erlangen.de) and Kai Hormann (hormann[at]informatik.tu-clausthal.de), ACM Transactions on Graphics 1998;17(2):71-83.
-
-Available at: <http://www.inf.usi.ch/hormann/papers/Greiner.1998.ECO.pdf>
+Based on Helder Correia's work https://github.com/helderco/univ-polyclip that is based on the paper "Efficient Clipping of Arbitrary Polygons" by Günther Greiner (greiner[at]informatik.uni-erlangen.de) and Kai Hormann (hormann[at]informatik.tu-clausthal.de), ACM Transactions on Graphics 1998;17(2):71-83. Available at: <http://www.inf.usi.ch/hormann/papers/Greiner.1998.ECO.pdf>
 
 ## Motivation
 
 Processing does not have built in "boolean" operations for 2D polygons. Maybe this can help.
 Supported operations are: union, intersection and difference.
 
-Maybe someone will want to **port this to P5.js**? Open an issue and send a PR!
+Maybe someone will want to **port this to P5.js**, open an issue and send a PR?
 
 ### About this repo
 
