@@ -1,23 +1,28 @@
-# Efficient Clipping of Arbitrary Polygons using OpenGPL
+# Clipping of Arbitrary Polygons
 
-Based on the paper "Efficient Clipping of Arbitrary Polygons" by Günther Greiner (greiner[at]informatik.uni-erlangen.de) and Kai Hormann (hormann[at]informatik.tu-clausthal.de), ACM Transactions on Graphics 1998;17(2):71-83.
+ased on the paper "Efficient Clipping of Arbitrary Polygons" by Günther Greiner (greiner[at]informatik.uni-erlangen.de) and Kai Hormann (hormann[at]informatik.tu-clausthal.de), ACM Transactions on Graphics 1998;17(2):71-83.
 
 Available at: <http://www.inf.usi.ch/hormann/papers/Greiner.1998.ECO.pdf>
 
 
 ## Motivation
 
-This work was created for educational purposes only, as an implementation in Java of the above algorithm, for a class in Graphical Computation.
+This work was created for educational purposes by Helder Correia, as an implementation in Java of the above algorithm, for a class in Graphical Computation.
 
 
 ## Files
 
 To study the algorithm, inspect file `Polygon.java`. It can be imported and used in other contexts (e.g., not opengl).
 
+
+## Processing Demo
+
+  - TO BE DONE!
+
+## Command line demo (might be removed)
+
 The command line interface is provided as a demo (`PolygonClip.java`), running the algorithm with OpenGL. The rest of this document is about this feature.
-
-
-## Requirements
+Provided for demonstration or testing purposes. Can't see how it could be useful to an end user.
 
 Made with **JOGL 1**.
 
@@ -30,13 +35,6 @@ Used the [NetBeans OpenGL Pack](http://kenai.com/projects/netbeans-opengl-pack/p
 3. Enable Force install into shared directories on the Settings page;
 3. Add all modules (.nbm files) to the Downloaded plugins list and press Install;
 4. The installation wizard will guide you now for the rest of the installation.
-
-
-## Command line usage
-
-Provided for demonstration or testing purposes. Can't see how it could be useful to an end user.
-
-Supported operations are: union, intersection and difference.
 
 
 ### Polygon definitions
