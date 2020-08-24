@@ -1,6 +1,7 @@
-# Clipping of Arbitrary Polygons
+# 2D Polygon operations (Java branch)
+### check out the Python branch too!
 
-ased on the paper "Efficient Clipping of Arbitrary Polygons" by Günther Greiner (greiner[at]informatik.uni-erlangen.de) and Kai Hormann (hormann[at]informatik.tu-clausthal.de), ACM Transactions on Graphics 1998;17(2):71-83.
+Based on the paper "Efficient Clipping of Arbitrary Polygons" by Günther Greiner (greiner[at]informatik.uni-erlangen.de) and Kai Hormann (hormann[at]informatik.tu-clausthal.de), ACM Transactions on Graphics 1998;17(2):71-83.
 
 Available at: <http://www.inf.usi.ch/hormann/papers/Greiner.1998.ECO.pdf>
 
@@ -8,7 +9,7 @@ Available at: <http://www.inf.usi.ch/hormann/papers/Greiner.1998.ECO.pdf>
 ## Motivation
 
 This work was created for educational purposes by Helder Correia, as an implementation in Java of the above algorithm, for a class in Graphical Computation.
-
+Now Alexandre Villares would like to use this with Processing.
 
 ## Files
 
