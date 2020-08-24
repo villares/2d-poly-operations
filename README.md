@@ -11,19 +11,19 @@ Processing does not have built in "boolean" operations for 2D polygons. Maybe th
 
 Supported operations are: union, intersection and difference.
 
+Maybe someone will want to **port this to P5.js**? Open an issue and send a PR!
+
 ### About this repo
 
 This is the **Python branch** you might want to have a look at the **Java branch**
 
 To study the algorithm, inspect the file `polygon.py`. It can be imported and used in other contexts (i.e., not Processing Python mode).
 
-### Import
 
-```python
-> import polygon
-> help(polygon)
-> from polygon import *
-```
+## Processing demo
+
+    TO BE DONE!
+
 ## The original command line demo (might be removed)
 
 The original command line interface will not be mantained (`polyclip.py`) and may be removed later, it was provided by Helder Correia for demonstration or testing purposes, using OpenGL and equires **PyOpenGL** (version 3 as of this writing). If you have pip, install is easy:
